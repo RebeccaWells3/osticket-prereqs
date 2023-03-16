@@ -25,11 +25,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+<h2>Create Resource Group and Virtual Machine in Microsoft Azure</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UgsgG1u.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Start by creating a resource group. Once you have the resource group created, create a virtual machine within the resource group. Make sure you give your virtual machine a Windows 10 (21H2) OS and set the region to be the same as the resource group's. Additionally, you want to be sure that the size of virtual machines is set to Standard_D4s_v3-4vcpus with 16 GiB of memory to provide optimal performance. Lastly, be sure to create a username and password for your virtual machine. These credentials will be used to login to the virtual machine.
 </p>
 <br />
 
