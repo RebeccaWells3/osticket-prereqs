@@ -38,10 +38,10 @@ Start by creating a resource group. Once you have the resource group created, cr
 <br />
 <h2>Install/Enable Internet Information Services (IIS) in Windows with CGI</h2>
 <p>
-<img src="https://i.imgur.com/i7cYIYY.png"/>
+<img src="https://i.imgur.com/nJ9mIUX.png"/>
 </p>
 <p>
-First, enter the public IP address in the Remote Desktop Connection window. Once connected, you will need to login to the virtual machine with your username and password. Once logged in, open the Control Panel and navigate to the Programs section. Within Programs, select the option to "Turn Windows features on or off". In the "Turn Windows features on or off" window, select all the highlighted options in the picture shown above. After selecting the options, click on the OK button to apply the changes.
+First, enter the public IP address in the Remote Desktop Connection window. Once connected, you will need to login to the virtual machine with your username and password. Once logged in, open the Control Panel and navigate to the Programs section. Within Programs, select the option to "Turn Windows features on or off". In the "Turn Windows features on or off" window, select all the highlighted options in the picture shown above to enable CGI. After selecting the options, click on the OK button to apply the changes.
 </p>
 <br />
 <h2>Download and Install PHP Manager for IIS and Rewrite Module</h2>
