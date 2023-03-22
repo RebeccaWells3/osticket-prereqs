@@ -57,10 +57,21 @@ Download and install PHP Manager and the Rewrite Module on the virtual machine.
 <br/>
 <h2>Create folder in directory for PHP & Download and Unzip PHP 7.3.8 files</h2>
 <p>
+<img src="https://i.imgur.com/bCAWNsz.png"/>
+</p>
+<p>
+After downloading the PHP files, extract all of them into the PHP folder in Windows directory C:.
+</p>
+<br />
+<h2>Download and Intsall VC file and MySQL</h2>
+<p>
+<img src="https://i.imgur.com/C2wPsdE.png"/>
+</p>
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla ariatur.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
