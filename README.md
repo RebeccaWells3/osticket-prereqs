@@ -68,10 +68,13 @@ After downloading the PHP files, extract all of them into the PHP folder in Wind
 <img src="https://i.imgur.com/C2wPsdE.png"/>
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wWZ8Env.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/65oSix6.png"/>
+</p>
+<p>
+When installing MySQL, make sure to select the "Typical Setup" option. Also, be sure to check the box for Launch Configuration Wizard (after install) before pressing the "Finish" button. In the Configuration Wizard, select "Standard Configuration" and install as a Windows service. Next, create a password for MySQL. 
 </p>
 <br />
 
