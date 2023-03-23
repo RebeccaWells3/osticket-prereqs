@@ -78,14 +78,22 @@ When installing MySQL, make sure to select the "Typical Setup" option. Also, be 
 </p>
 <br />
 
+<h2>Open IIS as an Administrator, Register PHP in IIS, and Restart IIS Server</h2> 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/E7570UW.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/Iy1msZE.png"/>
+</p>
+<p>
+<img src="https://i.imgur.com/fqmRAoR.png"/>
+</p>
+<p>
+In the windows start menu search "IIS" and select "Run as administrator". In IIS Manager, open PHP Manager and register new PHP version. Go to the PHP folder in the Windows C: directory and open the "php-cgi" folder. Next, restart the IIS server.
 </p>
 <br />
 
+<h2>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
