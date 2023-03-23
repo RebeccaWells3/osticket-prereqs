@@ -93,7 +93,53 @@ In the windows start menu search "IIS" and select "Run as administrator". In IIS
 </p>
 <br />
 
-<h2>
+<h2>Install osTicket</h2>
+<p>
+<img src="https://i.imgur.com/UE7qfJQ.png"/>
+</p>
+<p>
+After installing osTicket, copy the "upload" folder to C:\inetpub\wwwroot. (This can be done by dragging and dropping the "upload" folder.) In C:\inetpub\wwwroot, rename the "upload" folder "osTicket".
+</p>
+<br />
+
+<h2>Reload IIS and Browse to *:80 to review what extensions need to be enabled</h2>
+<p>
+<img src="https://i.imgur.com/6x3wdFi.png"/>
+</p>
+<p>
+In IIS go to Sites, Default, and osTicket. Next, click on "Browse *:80" to open osTicket in a web browser.
+</p>
+<br />
+
+<h2>Enable extensions in IIS</h2>
+<p>
+<img src="https://i.imgur.com/w4WcFla.png"/>
+</p>
+<p>
+In IIS go to Sites, Default, and osTicket.Double-click on "PHP Manager". Next, click on "Enable or disable an extension" and enable the extensions php_imap.dll,
+php_intl.dll, and php_opcache.dll.
+</p>
+<br />
+
+<h2>Rename: ost-config in PHP folder</h2>
+<p>
+<img src="https://i.imgur.com/OoNt5Dw.png"/>
+</p>
+<p>
+In file explorer go to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename it ost-config.php.
+</p>
+<br />
+
+<h2>Assign Permissions in ost-config.php and continue to setup osTicket</h2>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
