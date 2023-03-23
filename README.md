@@ -74,7 +74,7 @@ After downloading the PHP files, extract all of them into the PHP folder in Wind
 <img src="https://i.imgur.com/65oSix6.png"/>
 </p>
 <p>
-When installing MySQL, make sure to select the "Typical Setup" option. Also, be sure to check the box for Launch Configuration Wizard (after install) before pressing the "Finish" button. In the Configuration Wizard, select "Standard Configuration" and install as a Windows service. Next, create a password for MySQL. 
+When installing MySQL, make sure to select the "Typical Setup" option. Also, be sure to check the box for Launch Configuration Wizard (after install) before pressing the "Finish" button. In the Configuration Wizard, select "Standard Configuration" and install as a Windows service. Next, create a password for MySQL.  
 </p>
 <br />
 
@@ -142,19 +142,32 @@ Right click on ost-config.php and select properties, security, and advanced. In 
 </p>
 <br />
 
-
+<h2>Continue Setting up osTicket in the browser</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QNs5mIX.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Give your helpdesk a name, enter a default email, and complete the Admin User section. Do NOT click "Install" yet. We need to install HeidiSQL on our virtual machine first.
 </p>
 <br />
 
+<h2>Install HeidiSQL to link MySQL database to osTicket</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wO16jAi.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/8LimlRM.png"/>
+</p>
+<p>
+Download and install HeidiSQL. Create a new connection to the database and enter the password from MySQL setup to connect the database. Next, create a database called "osTicket". Finish setting up osTicket in the web browser and click "Install Now".
+</p>
+<br />
+
+<h2>Clean Up</h2>
+<p>
+<img src="https://i.imgur.com/gCoJpRf.png"/>
+</p>
+<p>
+Go to C:\inetpub\wwwroot\osTicket and delete the "setup" folder. Set permissions to “Read” only in C:\inetpub\wwwroot\osTicket\include\ost-config.php.
 </p>
 <br />
